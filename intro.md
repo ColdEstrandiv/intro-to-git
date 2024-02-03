@@ -39,7 +39,22 @@ git commit -m "initial commit: added <file>"
 
 git status
 # now can see the working tree is clean with nothing new to commit
+```
 
+## creating a branch
+```powershell
+# We want to branch out our code
+# first we should ensure our local branch is up to date with changes from remote
+git pull origin main
+# now if we see "Already up to date" we can create a new branch
+# to create a branch
+git branch develop
+# check to see branch
+git branch
+# should show (* shows active branch)
+    develop
+    *main
 
-
+# now move to the branch
+git checkout develop
 ```
