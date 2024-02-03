@@ -39,7 +39,4 @@ git commit -m "initial commit: added <file>"
 
 git status
 # now can see the working tree is clean with nothing new to commit
-
-
-
 ```
