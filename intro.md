@@ -48,13 +48,13 @@ git status
 git pull origin main
 # now if we see "Already up to date" we can create a new branch
 # to create a branch
-git branch develop
+git branch {name}
 # check to see branch
 git branch
 # should show (* shows active branch)
-    develop
+    {name}
     *main
 
 # now move to the branch
-git checkout develop
+git checkout {name}
 ```
